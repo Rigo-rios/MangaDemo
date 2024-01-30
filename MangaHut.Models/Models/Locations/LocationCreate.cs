@@ -20,6 +20,6 @@ namespace MangaHut.Models.Models.Locations
         [MaxLength(20, ErrorMessage= "Cannot exceed 20 Characters.")]
         [MinLength(5, ErrorMessage= "Must have more then 5 characters.")]
         public string ZipCode { get; set; } = string.Empty;
-        public int StoreId { get; set; }
+
     }
 }

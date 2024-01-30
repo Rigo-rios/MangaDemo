@@ -17,7 +17,7 @@ namespace MangaHut.Models.Models.Locations
         public string State { get; set; } = string.Empty;
         public string ZipCode { get; set; } = string.Empty;
 
-        public StoreListItem Store { get; set; }
+        public string StoreName { get; set; }= string.Empty;
 
     }
 }
